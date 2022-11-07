@@ -1,0 +1,260 @@
+Body{
+    font-size: 20px; /*Tamaño letra*/
+    margin: 30px 40px 50px 60px; /*establece el margen para los cuatro lados*/
+    padding:30px 40px 50px 60px; /*establece el espacio de relleno*/
+   
+   
+
+}
+.rojo{
+    color: #f56a6a; /* Color */
+}
+.get{
+    
+    color: #7f888f; /* Color */
+    font-family: "Open Sans", sans-serif; /* Tipo de letra fuente */
+    font-size: 13pt; /*Tamaño letra*/
+    line-height: 1.65; /*establece la altura de una casilla */
+} 
+p{
+    color: #7f888f; /* Color */
+    font-family: "Open Sans", sans-serif; /* Tipo de letra fuente */
+    font-size: 13pt; /*Tamaño lerta*/
+    font-weight: 400; /*se usa para especificar el peso de la fuente*/
+    line-height: 1.65; /*establece la altura de una casilla */
+}
+
+
+h1{
+    font-size: 3.5em; /*Tamaño letra*/
+    margin: 0 0 0.5em 0; /*establece el margen para los cuatro lados*/
+    line-height: 1.3;  /*establece la altura de una casilla */
+}
+h2{
+    color: #3d4449; /*Color*/
+    font-family: "Roboto Slab", serif; /* Tipo de letra fuente */
+    font-weight: 700; /*se usa para especificar el peso de la fuente*/
+    line-height: 1.5; /*establece la altura de una casilla */
+    font-size: 1.38889em; /*Tamaño letra*/
+    border-bottom:  solid 3px #f56a6a; /* Color */
+   
+}
+h3 {
+    font-size: 1.25em; /*Tamaño letra*/
+}
+    
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3d4449; /* Color */
+    font-family: "Roboto Slab", serif; /* Tipo de letra fuente */
+    font-weight: 700; /*se usa para especificar el peso de la fuente*/
+    line-height: 1.5; /*establece la altura de una casilla */
+    margin: 0 0 1em 0; /*establece el margen para los cuatro lados*/
+}
+
+a{
+    text-decoration: none; /*Texto sin decoracion*/
+    color: black; /* Color */
+}
+
+.hr1{
+    border-bottom:  solid 3px #f56a6a; /* Barra de color roja */
+}
+ul{
+    list-style: none; /*sirve para no mostrar ningún marcador en una lista de elementos*/
+}
+
+.barra_izq li{
+    padding-bottom: 1rem; /*establece el espacio de relleno requerido en la parte inferior del elemento*/
+}
+
+.barra_izq nav ul li{
+    padding-bottom: 2rem; /*establece el espacio de relleno requerido en la parte inferior del elemento*/
+}
+
+.container{
+    display: block; /*ocupa el ancho máximo disponible.*/
+    margin-left: 20rem; /*Margen de la izquierda*/
+    background-color: white; /* Color */
+}
+.redes{
+    font-size: 0.9em;/*Tamaño letra*/
+    letter-spacing: 0.075em; /*Espacio entre letras*/
+    border-top: solid 1px rgba(210, 215, 217, 0.75); /* Borde + Color */
+    text-decoration: none; /*Texto sin decoracion*/
+
+}
+
+#redes{
+    display: flex; /*Pone todo lo que este cogiendo el flex en horizontal*/
+}
+
+#redes li{
+    padding-right: 3px; /*espacio entre el borde derecho y el contenido del selector*/
+}
+#header{
+    display: flex; /*Pone todo lo que este cogiendo el flex en horizontal*/
+    width: 100%; /*Anchura*/
+}
+#editorial{
+    width: 90%; /*Anchura*/
+    margin-top: 1.5%; /*Margen de arriba*/
+}
+#enlace{
+    width: 10%; /*Anchura*/
+}
+
+#header nav{
+    text-align: right; /*Posicion de texto a la derecha*/
+}
+
+
+.menu{
+    width: 100%; /*Anchura*/
+    font-size: 0.65em; /*Tamaño letra*/
+    color: white; /* Color */
+    padding-top: 5%; /*Espacio de arriba*/
+
+}
+.letra{
+    font-size: 0.9em; /*Tamaño letra*/
+    letter-spacing: 0.075em; /*Espacio entre letras*/
+    color: #3d4449; /* Color */
+}
+.letra a{
+    text-decoration: none; /*Texto sin decoracion*/
+}
+
+.menu li{
+    list-style: none; /*Sirve para no mostrar ningun marcador*/
+    font-weight: bold; /*establecer el grosor en las letras*/
+    text-align: left; /*Texto a la izquierda*/
+    padding: 0.2rem; /*establece el espacio de relleno*/
+
+}
+.menu ul{
+    list-style: none; /*Sirve para no mostrar ningun marcador*/
+    
+   
+}
+
+.menu li a{
+    text-decoration: none; /*Texto sin decoracion*/
+    color: black; /* Color */
+    padding-top: 10%; /*Espacio de arriba*/
+    padding-block: 10%; /*define el relleno lógico de inicio y final del bloque de un elemento*/
+    
+    
+}
+
+.menu>li:hover>ul{
+    display: block; /*ocupa el ancho máximo disponible.*/
+   
+    
+} 
+
+.ml{
+    font-size: 17px; /*Tamaño letra*/
+}
+.barra_izq{
+    width: 15rem; /*Anchura*/
+    position: absolute; /*hace que un elemento se coloque al div posicionado mas cercano*/
+    left: 0; /*izquierda*/
+    top: 0;  /*Arriba*/
+    padding: 4rem; 
+    height: 100%; /*Altura*/
+    background-color: rgba(210, 215, 217, 0.75);  /* Color */
+ 
+}
+.barra_izq2{
+    width: 15rem; /*Anchura*/
+    position: absolute; /*hace que un elemento se coloque al div posicionado mas cercano*/
+    left: 0; /*izquierda*/
+    padding: 4rem;  /*establece el espacio de relleno*/ 
+    height: 100%; /*Altura*/
+    background-color: rgba(210, 215, 217, 0.75);      /* Color */
+}
+.barra_izq3{
+    width: 15rem; /*Anchura*/
+    position: absolute; /*hace que un elemento se coloque al div posicionado mas cercano*/
+    left: 0; /*izquierda*/
+    top: 0; /*Arriba*/
+    margin-top: 95%; /*Margen superior*/
+    padding: 4rem;  /*establece el espacio de relleno*/ 
+    height: 62%; /*Altura*/
+    background-color: rgba(209, 214, 216, 0.74);     /* Color */ 
+}
+
+
+
+.submenu{
+	display: none; /*le dice al navegador que no lo represente*/
+   
+    
+}
+.img{
+    display: flex; /*Pone todo lo que este cogiendo el flex en horizontal*/
+}
+
+.div1{
+   display: flex; /*Pone todo lo que este cogiendo el flex en horizontal*/
+
+}
+
+.texto{
+    margin-right: 5%; /*margen derecho especificando un porcentaje*/
+}
+ 
+.flex1{
+    display: flex; /*Pone todo lo que este cogiendo el flex en horizontal*/
+}
+
+.flex2{
+    display: flex; /*Pone todo lo que este cogiendo el flex en horizontal*/
+}
+
+.content{
+    margin-right: 10%;  /*Margen de la derecha de un 10%*/
+    margin-left: 20%; /*Margen de la izquierda de un 20%*/
+   
+}
+
+.girar{
+    color: #f56a6a; /* Color */
+    border: 1px black solid; /* Borde con Color */
+    width: 100px; /*Ancho*/
+    height: 100px; /*Altura*/
+    margin-top: 5%; /*Margen superior de un 5%*/
+    float: left; /*Se desplaza lo maximo possible a la izquierda*/
+    margin-right: 30px; /*margen derecho*/
+    transform: rotate(45deg); /*Gira el elemento 45 grados*/
+     
+    
+}
+
+.girar i{
+    transform: rotate(-45deg); /*Gira el elemento -45 grados*/
+    position: absolute; /*hace que un elemento se coloque al div posicionado mas cercano*/
+    top: 30%; /*Te permite desplazar el elemento un 30%*/
+    left: 30%; /*Izquierda*/
+    
+    
+}
+
+.texto1{
+    margin-right: 10%; /*margen derecho especificando un porcentaje*/
+}
+
+.btn{
+    text-decoration: none; 
+    padding: 3px; /*establece el espacio de relleno*/
+    padding-left: 10px; /*espacio entre el borde izquierdo y el contenido del selector*/
+    padding-right: 10px; /*espacio entre el borde derecho y el contenido del selector*/
+    font-family: "Roboto Slab", serif; /* Tipo de letra fuente */
+    font-size: 20px; /*Tamaño de la letra*/
+    color: #f56a6a; /* Color */
+    background-color: WHITE; /* Color  de fondo */
+    border-radius: 5px; /*Forma de radio en el boton */
+    border: 3px solid #f56a6a; /* Color más borde */
+  }
+ 
